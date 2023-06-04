@@ -11,6 +11,13 @@ function encriptar() {
   }
 
   document.getElementById('outputText').textContent = output;
+  
+
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('btnEncrypt')
+  .addEventListener('click', encriptar);
 }
 
 function encriptarLetra(char) {
