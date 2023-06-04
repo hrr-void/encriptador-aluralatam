@@ -1,0 +1,210 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logo {
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+.block {
+    height: 700px;
+}
+
+main section div {
+    display: inline-block;
+}
+
+.textArea {
+    border: transparent;
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.outputText {
+    background: #FFFFFF;
+    position: absolute;
+    transform: translate(30rem, -5rem);
+    height: 944px;
+    width: 400px;
+    border-radius: 52px;
+}
+
+.outputText p {
+    background: transparent;
+}
+
+.outputText p:first-child {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+}
+
+.content {
+    background: transparent;
+    position: relative;
+    top: 15rem;
+}
+
+.munheco {
+    background-color: transparent;
+    position: relative;
+    left: 2rem;
+}
+
+.alert1 {
+    color: #0A3871;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+}
+
+.alert2 {
+    color: #0A3871;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.btnCopy {
+    background: #0A3871;
+    color: white;
+    border-color: black;
+    position: absolute;
+    top: 53.4rem;
+    right: 2rem;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+}
+
+h2 {
+    background: transparent;
+    display: inline-block;
+    position: relative;
+    left: 20rem;
+    top: 0rem;
+    font-size: 1.2rem;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.btn {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    left: 25rem;
+    padding: 1rem 0 0 0;
+}
+
+.btnEncrypt {
+    background: #0A3871;
+    color: white;
+    border-color: black;
+    position: relative;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    font-size: 1.5rem;
+}
+
+.btnDecrypt {
+    background: #D8DFE8;
+    color: black;
+    border-color: black;
+    position: relative;
+    left: 1.5rem;
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 24px;
+    }
+
+    .logo {
+        padding: 10px 0;
+    }
+
+    .block {
+        max-width: none;
+    }
+
+    .textArea {
+        display: block;
+        left: 1rem;
+        top: 0.5rem;
+        max-height: 20rem;
+        max-width: 22rem;
+    }
+
+    .outputText {
+        transform: translate(.8rem, 2rem);
+        height: 160px;
+        width: 327px;
+        font-size: 32px;
+        border-radius: 32px;
+        padding: 32px;
+    }
+
+    .content {
+        top: 2rem;
+    }
+
+    .munheco {
+        display: none;
+    }
+
+    .alert1 {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+    .alert2 {
+        font-size: 1.4rem;
+        line-height: 20px;
+    }
+
+    .btnCopy {
+        top: 27rem;
+        left: 2rem;
+        display: block;
+    }
+
+    h2 {top: -8rem;
+        left: 4rem;
+    }
+
+    .btn {
+        display: block;
+        left: 2rem;
+        top: -9rem;
+    }
+
+    .btnEncrypt {
+        left: 1rem;
+    }
+
+    .btnDecrypt {
+        top: 1rem;
+        left: 1rem;
+    }
+}

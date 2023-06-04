@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Im fine c:</title>
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo de alura">
+    </header>
+
+    <main>
+        <section class="block">
+            <div class="textArea">
+                <textarea class="textArea" id="inputText" placeholder="Ingrese el texto aquí." cols="55"
+                    rows="13"></textarea>
+            </div>
+
+            <div class="outputText">
+                <p id="outputText"> </p>
+                <div class="content" id="content">
+                    <img class="munheco" src="img/Muñeco.png" alt="munheco">
+                    <p class="alert1">Ningún mensaje fue encontrado.</p>
+                    <p class="alert2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <button id="btnCopy" class="btnCopy" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>&#9432 Sólo letras minúsculas y sin acentos.</h2>
+        </section>
+
+        <section class="btn">
+            <button class="btnEncrypt" onclick="encriptar()">Encriptar</button>
+            <button class="btnDecrypt" onclick="desencriptar()">Desencriptar</button>
+        </section>
+
+        <script src="script.js"></script>
+    </main>
+</body>
